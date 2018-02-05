@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f3f-ca-nr4">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -55,6 +55,9 @@
                         <viewLayoutGuide key="safeArea" id="m1V-MY-7Dy"/>
                     </view>
                     <navigationItem key="navigationItem" id="vk7-cQ-IyY"/>
+                    <connections>
+                        <outlet property="FirstLabel" destination="QTe-Ux-Odi" id="e2U-Sg-erk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zZl-Hu-zYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +85,7 @@
         <scene sceneID="O0R-Op-Xbx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RI4-Dl-KDX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="c2d-dg-TiU"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="about" id="c2d-dg-TiU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PeZ-R7-lDT">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -117,4 +120,7 @@
             <point key="canvasLocation" x="108.75" y="-26.408450704225352"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about" width="30" height="30"/>
+    </resources>
 </document>
