@@ -14,6 +14,9 @@
 		7FAC8CB72028EA4A00772CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAC8CB52028EA4A00772CD3 /* LaunchScreen.storyboard */; };
 		7FAC8CC22028EA4A00772CD3 /* Hackwich3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC8CC12028EA4A00772CD3 /* Hackwich3Tests.swift */; };
 		7FAC8CCD2028EA4B00772CD3 /* Hackwich3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC8CCC2028EA4B00772CD3 /* Hackwich3UITests.swift */; };
+		7FADD12020572ADB00EED7FF /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FADD11F20572ADB00EED7FF /* AboutMeViewController.swift */; };
+		7FADD12220572B1B00EED7FF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FADD12120572B1B00EED7FF /* WeatherViewController.swift */; };
+		7FADD12420572B4500EED7FF /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FADD12320572B4500EED7FF /* BucketListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7FAC8CC82028EA4A00772CD3 /* Hackwich3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackwich3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FAC8CCC2028EA4B00772CD3 /* Hackwich3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich3UITests.swift; sourceTree = "<group>"; };
 		7FAC8CCE2028EA4B00772CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FADD11F20572ADB00EED7FF /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		7FADD12120572B1B00EED7FF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		7FADD12320572B4500EED7FF /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				7FAC8CAC2028EA4A00772CD3 /* AppDelegate.swift */,
 				7FAC8CAE2028EA4A00772CD3 /* ViewController.swift */,
 				7FAC8CB02028EA4A00772CD3 /* Main.storyboard */,
+				7FADD12320572B4500EED7FF /* BucketListViewController.swift */,
+				7FADD12120572B1B00EED7FF /* WeatherViewController.swift */,
+				7FADD11F20572ADB00EED7FF /* AboutMeViewController.swift */,
 				7FAC8CB32028EA4A00772CD3 /* Assets.xcassets */,
 				7FAC8CB52028EA4A00772CD3 /* LaunchScreen.storyboard */,
 				7FAC8CB82028EA4A00772CD3 /* Info.plist */,
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FAC8CAF2028EA4A00772CD3 /* ViewController.swift in Sources */,
+				7FADD12220572B1B00EED7FF /* WeatherViewController.swift in Sources */,
+				7FADD12020572ADB00EED7FF /* AboutMeViewController.swift in Sources */,
+				7FADD12420572B4500EED7FF /* BucketListViewController.swift in Sources */,
 				7FAC8CAD2028EA4A00772CD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
