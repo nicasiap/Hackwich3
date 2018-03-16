@@ -13,11 +13,24 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var enterValueText: UITextField!
     @IBOutlet weak var finalValueText: UILabel!
     
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
 
         // Do any additional setup after loading the view.
+        
+        enterValueText.placeholder = "Enter degrees Farenheit"
+        
+        
+        
+        
     }
     
     
@@ -31,7 +44,7 @@ class WeatherViewController: UIViewController {
         userInput = Float(enterValueText.text!)!
         var x:String
         x = String((userInput - 32) * 5/9)
-        self.finalValueText.text = "Today is \(x) degrees."
+        self.finalValueText.text = "Today is \(x) degrees celcius."
         
         
         
